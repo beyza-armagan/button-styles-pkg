@@ -1,0 +1,77 @@
+/* add css module styles here (optional) */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonItem {
+  color: #fff;
+  white-space: nowrap;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #1677ff;
+  font-size: 14px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 4px 15px;  margin-right: 15px;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+.primary, .download, .loading, .click{
+  border: none;
+}
+
+.buttonItem:hover {
+  box-shadow: 0 2px 2px rgba(22, 24, 26, 0.7);
+}
+
+.default {
+  background: #ffffff;
+  border: solid;
+  border-width: 1px;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.dashed {
+  background: #ffffff;
+  border: dashed;
+  border-width: 1px;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.text {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.text:hover {
+  box-shadow: none;
+  color: #1677ff;
+}
+
+.link {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.link:hover {
+  box-shadow: none;
+  color: #1677ff;
+  text-decoration: underline;
+}
+
+
+.ghost {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.88);
+  border: 1px;
+  border-color: rgba(0, 0, 0, 0.88);
+}

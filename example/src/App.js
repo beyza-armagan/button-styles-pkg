@@ -1,12 +1,6 @@
 import React from 'react'
 import { Button } from 'diffstylebutton'
 import 'diffstylebutton/dist/index.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faDownload,
-  faSpinner,
-  faHandPointer
-} from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   const buttonTypes = ['primary', 'default', 'dashed', 'text', 'link']
@@ -25,27 +19,7 @@ const App = () => {
         style={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap' }}
       >
         {buttonTypesSpecial.map((item, index) => (
-          <Button
-            key={index}
-            text={
-              item === 'loading' ? (
-                <span>
-                  <FontAwesomeIcon icon={faSpinner} spin /> Loading
-                </span>
-              ) : item === 'download' ? (
-                <span>
-                  <FontAwesomeIcon icon={faDownload} /> Download
-                </span>
-              ) : item === 'click' ? (
-                <span>
-                  <FontAwesomeIcon icon={faHandPointer} /> Click Me!
-                </span>
-              ) : (
-                item
-              )
-            }
-            buttonType={item}
-          />
+          <Button key={index} text={item} buttonType={item} />
         ))}
       </div>
     </div>

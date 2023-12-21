@@ -19,12 +19,12 @@ npm install --save diffstylebutton
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'diffstylebutton'
+import { Button } from 'diffstylebutton'
 import 'diffstylebutton/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button text= "dashed" buttonType="dashed" />
   }
 }
 ```

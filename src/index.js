@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
+import 'diffstylebutton/dist/index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faDownload,

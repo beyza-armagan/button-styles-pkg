@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from 'diffstylebutton'
-import 'diffstylebutton/dist/index.css'
 
 const App = () => {
   const buttonTypes = ['primary', 'default', 'dashed', 'text', 'link']

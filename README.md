@@ -24,7 +24,7 @@ import 'diffstylebutton/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <Button text= "dashed" buttonType="dashed" />
+    return <Button text= "button text..." buttonType="dashed" />
   }
 }
 ```
